@@ -1,0 +1,20 @@
+{
+  "name": "laac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "reveal-md slides.md --preprocessor emoji2svgimg.js --css style.css",
+    "export:site": "reveal-md slides.md --preprocessor emoji2svgimg.js --css style.css --static-dirs=assets --static dist --absolute-url https://ryansheehan.github.io/presentation-leader-as-a-coach",
+    "postexport:site": "cp *.svg dist/ && cp *.png dist/ && cp *.jpg dist/ && cp *.mp4 dist/ && cp robots.txt dist/ && cp *.svg dist/assets/ && cp *.png dist/assets/ && cp *.jpg dist/assets/",
+    "reveal-md": "reveal-md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^5.5.1",
+    "reveal.js": "^4.6.1",
+    "twemoji": "^14.0.2"
+  }
+}

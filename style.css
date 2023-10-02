@@ -1,0 +1,57 @@
+:root {
+    --color-true: lightgreen;
+    --color-false: red;    
+
+    --color-smu-red: #CC0035;
+    --color-smu-blue: #354CA1;
+    --color-smu-secondary: #F9C80E;
+    --color-smu-tertiary-red: #FF1053;
+    --color-smu-tertiary-blue: #59C3C3;
+    --color-smu-dark: #262626;
+
+    --r-link-color: var(--color-smu-secondary);
+}
+
+.reveal blockquote {
+    font-style: normal;
+    border-radius: 8px;
+}
+
+.white blockquote {
+    background-color: #efefef;
+}
+
+.glass-quote blockquote {
+    color: var(--color-smu-dark);
+    
+    background-color: rgba(255, 255, 255, .35);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+img:not(.emoji) {
+    /* height: 200pt !important; */
+}
+
+.r-stack.overlap {
+    display: inline-grid;
+}
+
+.false {
+    color: var(--color-false);
+}
+
+.true {
+    color: var(--color-true);    
+}
+
+.glow {
+    text-shadow: 0 0 6px;
+}

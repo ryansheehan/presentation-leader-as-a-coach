@@ -45,7 +45,7 @@ Note: These are my own personal definitions, but I think they closely align.  Th
 
 ![talking to yourself](assets/talktoyourself.jpg)
 
-Note: Yo Dawg 🐕, I put a conversation with myself about myself for myself in a presentation about myself.
+Note: Yo Dawg, I put a conversation with myself about myself for myself in a presentation about myself.
 
 ---
 
@@ -117,7 +117,7 @@ Note: I found this an interesting challenge, but not-really-a-challenge.  When I
 >
 > -Doug Firebaugh
 
-Note: I liked this quote.  Gotta keep moving forward! 🚀
+Note: I liked this quote.  Gotta keep moving forward!
 
 ----
 
@@ -125,7 +125,7 @@ Note: I liked this quote.  Gotta keep moving forward! 🚀
 
 <!-- .slide: class="white" data-background="assets/lego.jpg" data-transition="slide" -->
 
-Note: Snapping in the lego! 🧱 This one is weird since it's about the coach.  Am I coaching myself, or coaching my boss and peers in coaching me!!  It's very meta.  My approach is to coach my boss and peers to coach me to gain more accountability.
+Note: Snapping in the lego! This one is weird since it's about the coach.  Am I coaching myself, or coaching my boss and peers in coaching me!!  It's very meta.  My approach is to coach my boss and peers to coach me to gain more accountability.
 
 ----
 
@@ -187,7 +187,7 @@ Note: This is a real quote.  We are trying to roll out some big company wide cha
     <li class="fragment fade-left">👩‍💼🤦‍♂️ yearly reviews</li>
 </ul>
 
-Note: Really there are a ton more places to do approach these conversations.  I need to try it with the kids 👪.  The conversation order is always a mix, but "Gotta keep moving forward! 🚀"
+Note: Really there are a ton more places to do approach these conversations.  I need to try it with the kids.  The conversation order is always a mix, but "Gotta keep moving forward!"
 
 ---
 

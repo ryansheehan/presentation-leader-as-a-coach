@@ -20,17 +20,17 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-    #   - name: Check GH Pages Status
-    #     uses: crazy-max/ghaction-github-status@v3
-    #     with:
-    #       pages_threshold: major_outage
-    #   - name: Deploy to Github Pages
-    #     if: success()
-    #     uses: crazy-max/ghaction-github-pages@v3
-    #     with:
-    #       target_branch: site
-    #       build_dir: build
-    #       jekyll: false
-    #     env:
-    #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check GH Pages Status
+        uses: crazy-max/ghaction-github-status@v3
+        with:
+          pages_threshold: major_outage
+      - name: Deploy to Github Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: site
+          build_dir: build
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       

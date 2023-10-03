@@ -19,7 +19,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run export:site
       - name: Check GH Pages Status
         uses: crazy-max/ghaction-github-status@v3
         with:
